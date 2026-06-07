@@ -16,6 +16,32 @@ A platform using PHP, JavaScript, jQuery, REST/SOAP APIs, and PostgreSQL. Implem
 
 --
 
+# Starting Everything
+
+## PHP App
+
+Run:
+```bash
+docker compose up --build
+```
+Open:
+```
+http://localhost:8000
+```
+
+## pgAdmin
+
+Open:
+```
+http://localhost:5050
+```
+```
+Email: email@admin.com
+Password: admin
+```
+
+--
+
 
 # Roadmap
 - [x] - MVC
