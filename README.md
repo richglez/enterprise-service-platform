@@ -14,5 +14,16 @@ A platform using PHP, JavaScript, jQuery, REST/SOAP APIs, and PostgreSQL. Implem
 - [ ] - Analytics
 - [ ] - Advanced Fesatures
 
+# Tech Stack
+| **Tech**          | **Use**                                 |
+| ----------------- | --------------------------------------- |
+| Frontend          | HTML/CSS/jQuery                         |
+| Backend           | PHP                                     |
+| Database          | PostgreSQL                              |
+| Docker / Compose  | Php, Containerization of app + database |
+| IDE               | Cursor                                  |
+| Version Control   | Git                                     |
+| Hosting Later     | Render/Railway/VPS                      |
+
 
 
