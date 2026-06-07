@@ -4,15 +4,15 @@ A platform using PHP, JavaScript, jQuery, REST/SOAP APIs, and PostgreSQL. Implem
 --
 
 # Roadmap
-[x] - MVC
-[x] - Conection to Database
-[] - Authentication System(login, register, logout, sessions, password hashing, roles) everything depends on auth
-[] - Create database
-[] - Build REST API
-[] - Inventoty
-[] - Build SOAP
-[] - Analytics
-[] - Advanced Fesatures
+- [x] - MVC
+- [ ] - Conection to Database
+- [ ] - Authentication System(login, register, logout, sessions, password hashing, roles) everything depends on auth
+- [ ] - Create database
+- [ ] - Build REST API
+- [ ] - Inventoty
+- [ ] - Build SOAP
+- [ ] - Analytics
+- [ ] - Advanced Fesatures
 
 
 
