@@ -15,7 +15,12 @@ try {
     );
 
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    // throw exceptions if something goes wrong
 } catch (PDOException $e) {
 
-    die($e->getMessage());
+    // Stop the script completely and display the error message before dying
+    // die($e->getMessage());
+
+    throw new RuntimeException("Failed to connect to the database: " . $e->getMessage());
+    // more profesionally throwing an exception insted of dying
 }
