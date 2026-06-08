@@ -14,7 +14,7 @@ A platform using PHP, JavaScript, jQuery, REST/SOAP APIs, and PostgreSQL. Implem
 | Version Control  | Git                                     |
 | Hosting Later    | Render/Railway/VPS                      |
 
---
+---
 
 # Starting Everything
 
@@ -40,19 +40,38 @@ Email: email@admin.com
 Password: admin
 ```
 
---
+---
+
+# Models
+
+## USER
+
+
+
+### User Roles
+| **ROLE** | **Purpose** |
+| -------- | ------- |
+| admin | Full system access |
+| manager | Manage employees/tickets/inventory |
+| support | Handle tickets/support |
+| employee | Basic internal access |
+| auditor | Read-only analytics/logs |
+
+---
 
 
 # Roadmap
 - [x] - MVC
 - [x] - Conection to Database
+- [ ] - RBAC (Role-Based Access Control)
 - [ ] - Authentication System(login, register, logout, sessions, password hashing, roles) everything depends on auth
 - [ ] - Create database
 - [ ] - Build REST API
 - [ ] - Inventoty
 - [ ] - Build SOAP
 - [ ] - Analytics
-- [ ] - Advanced Fesatures
+- [ ] - Advanced Fesatures(Nginx
+PHP-FPM)
 
 
 
