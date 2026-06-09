@@ -64,6 +64,7 @@ Password: admin
 - [x] - MVC
 - [x] - Conection to Database
 - [ ] - Create tables(users, departments, employees, tickets, tickets_comments, products, inventory, suppliers, audit_logs)
+- [ ] Create UML & ERD
 - [ ] - RBAC (Role-Based Access Control)
 - [ ] - Authentication System(login, register, logout, sessions, password hashing, roles) everything depends on auth
 - [ ] - Create database
