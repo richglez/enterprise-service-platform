@@ -142,6 +142,8 @@ Password: richpassword
 
 ### 🔧 In Progress / Upcoming
 - [ ] UML & ERD diagrams
+
+### Backlog
 - [ ] RBAC (Role-Based Access Control)
 - [ ] Authentication system (login, register, logout, sessions, hashing)
 - [ ] REST API
