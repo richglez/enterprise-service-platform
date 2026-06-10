@@ -80,6 +80,35 @@ Manager   →  sees full summary on the analytics dashboard
 
 ---
 
+## Project Structure
+```bash
+ENTERPRISE-SERVICE-PLATAFORM
+|-- /app
+| |-- /controllers
+| |-- /models
+| |-- /services
+| |-- /views
+|-- /config
+| |-- database.php
+|-- /databse
+| |-- /migrations
+| |-- /schema
+| |-- /seeds
+|-- /docker
+| |-- /php
+| |  |-- Dockerfile
+|-- /public
+| |-- /assets
+| |   |-- /css
+| |   |-- /js
+| |-- /index.php
+|-- /routes
+|-- docker-compose.yml
+|__ README.MD
+```
+
+---
+
 ## 🚀 Getting Started
 
 ### Run the app
