@@ -56,13 +56,15 @@ Manager   →  sees full summary on the analytics dashboard
 
 ## 👥 User Roles
 
-| Role       | Access                                   |
-| ---------- | ---------------------------------------- |
-| `admin`    | Full system access                       |
-| `manager`  | Manage employees, tickets, and inventory |
-| `support`  | Handle and resolve tickets               |
-| `employee` | Submit tickets and view basic info       |
-| `auditor`  | Read-only access to logs and analytics   |
+
+| Role     | Who is?                       | Access                                                                 |
+| -------- | ----------------------------- | ---------------------------------------------------------------------- |
+| admin    | The IT person / system owner  | Create users, change roles, access everything, configure the system    |
+| manager  | Area Manager                  | View reports, monitor your team's tickets, and approve purchase orders |
+| support  | Help desk / technical support | Receive tickets, handle them, update their status, and add comments    |
+| employee | Regular employee              | You can only create tickets and view your own                          |
+| auditor  | External accountant / auditor | Read-only — view logs, reports, and analytics; cannot make any changes |
+> The "employee" role is the default (DEFAULT 'employee') because most users who sign up are regular employees.
 
 ---
 
