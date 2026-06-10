@@ -83,7 +83,7 @@ Manager   →  sees full summary on the analytics dashboard
 ---
 
 ## Project Structure
-```bash
+```text
 enterprise-service-platform/
 ├── app/                        # Core application logic (MVC + Services)
 │   ├── controllers/            # Request handlers and controllers
