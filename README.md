@@ -84,29 +84,29 @@ Manager   →  sees full summary on the analytics dashboard
 
 ## Project Structure
 ```bash
-ENTERPRISE-SERVICE-PLATAFORM
-|-- /app
-| |-- /controllers
-| |-- /models
-| |-- /services
-| |-- /views
-|-- /config
-| |-- database.php
-|-- /databse
-| |-- /migrations
-| |-- /schema
-| |-- /seeds
-|-- /docker
-| |-- /php
-| |  |-- Dockerfile
-|-- /public
-| |-- /assets
-| |   |-- /css
-| |   |-- /js
-| |-- /index.php
-|-- /routes
-|-- docker-compose.yml
-|__ README.MD
+enterprise-service-platform/
+├── app/                        # Core application logic (MVC + Services)
+│   ├── controllers/            # Request handlers and controllers
+│   ├── models/                 # Database models and data layer
+│   ├── services/               # Business logic and external integrations
+│   └── views/                  # UI templates and presentation layer
+├── config/                     # Configuration files
+│   └── database.php            # Database connection settings
+├── database/                   # Database management
+│   ├── migrations/             # Database schema migrations
+│   ├── schema/                 # SQL schema dumps or definitions
+│   └── seeds/                  # Database seeders for testing data
+├── docker/                     # Docker configuration files
+│   └── php/
+│       └── Dockerfile          # PHP environment container definition
+├── public/                     # Web root (accessible to the public)
+│   ├── assets/                 # Static assets
+│   │   ├── css/                # Stylesheets
+│   │   └── js/                 # JavaScript files
+│   └── index.php               # Application entry point
+├── routes/                     # Application routing definitions
+├── docker-compose.yml          # Multi-container Docker orchestration
+└── README.md                   # Project documentation
 ```
 
 ---
